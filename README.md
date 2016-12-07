@@ -1,5 +1,5 @@
-# 2016.scsg.25k
-## Proposal to SC Space Grant Consortium for 2016 $25k grant opportunity
+# 2017.scsg.25k
+## Proposal to SC Space Grant Consortium for 2017 $25k grant opportunity
 
 ### timeline
 - [x] December 9, 2016            USC Internal Deadline
