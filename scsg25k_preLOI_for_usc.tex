@@ -1,0 +1,47 @@
+% Latex Template for arbitrary format proposals
+% 2016-12-2
+% S. Rodney 
+%----------------------------------------------------------------------%
+
+\documentclass[12pt]{article}
+\usepackage[top=0.8in, bottom=0.8in, left=0.8in, right=0.8in]{geometry}
+%\usepackage{times}
+%\usepackage{color}
+\usepackage{setspace}
+%\usepackage{charter}
+\usepackage{graphicx}
+\usepackage{minibox}
+\usepackage{fancyhdr}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PDF mode settings : Auto-select eps or pdf figures 
+% based  on the compiler used (i.e. latex vs pdflatex)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ifx\pdfoutput\undefined
+  \pdffalse
+  \DeclareGraphicsExtensions{.eps,.ps}
+\else
+  \ifnum\pdfoutput=1
+    % \pdftrue
+    \DeclareGraphicsExtensions{.pdf,.png,.jpg}
+  \else
+    % \pdffalse
+    \DeclareGraphicsExtensions{.eps,.ps}
+  \fi
+\fi
+
+
+
+\begin{document}
+\thispagestyle{empty}
+\onehalfspace
+  
+\input{coverpage}
+
+\pagebreak
+\input{abstract}
+
+
+\end{document}
+
